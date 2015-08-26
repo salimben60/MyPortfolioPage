@@ -1,0 +1,557 @@
+.scroll-up {
+  position: fixed;
+  display: none;
+  z-index: 999;
+  bottom: 2em;
+  right: 2em;
+}
+.scroll-up a {
+  background-color: rgba(135, 135, 135, 0.5);
+  display: block;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.img-small{
+	width:100px;
+	height:40px; 
+    margin-top:10px;
+	}
+
+
+.sb{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:3%;
+    margin-bottom:3%;
+ }
+ 
+   .salim{background-color:#2980B9; padding-left:; 
+         line-height:2.0em;font-size:1.3em;color:#e9eff4;
+          border-bottom:22px; 
+  }
+    .salim2{background-color:#2980B9; 
+         line-height:2.0em;font-size:1.3em;color:#e9eff4;
+          border-bottom:; 
+  }
+  
+  
+.progress {;}
+.divider{ width:100%; height:4px; background-color:black;}    
+ h1,h3,h4,p  { font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;color: #646464; line-height:1.5; }
+    
+    .outlined .highlight {
+  outline: 10px solid red;
+  background: transparent;     
+}
+    .row{margin:0px;}
+    .navbar-inverse{background-color:#428BCA;}
+    
+    body{background-color:#EEEEEE; margin-top:-20px; }
+    
+    .meter-custom1{text-align:right; background-color:#D9534F;}
+    .meter-custom2{text-align:right; background-color:#F0AD4E;}
+    .meter-custom3{text-align:right; background-color:#337AB7}
+    .meter-custom4{text-align:right; background-color:#5CB85C;}
+
+<!-- Fixed button to GOTO TOP -->
+
+.scroll-up {
+  position: fixed;
+  display: none;
+  z-index: 999;
+  bottom: 2em;
+  right: 2em;
+}
+.scroll-up a {
+  background-color: rgba(135, 135, 135, 0.5);
+  display: block;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  line-height: 30px;
+}
+<!-- END Fixed button to GOTO TOP -->
+
+<!-- Another Custom check this later might be duplicate -->
+ background-color:orange;
+  /* uses font awesome for social icons */
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+.page-header{
+  text-align: center;    
+}
+
+/*social buttons*/
+.btn-social{
+  color: white;
+  opacity:0.9;
+}
+.btn-social:hover {
+  color: white;
+    opacity:1;
+}
+.btn-facebook {
+background-color: #3b5998;
+opacity:0.9;
+}
+.btn-twitter {
+background-color: #00aced;
+opacity:0.9;
+}
+.btn-linkedin {
+background-color:#0e76a8;
+opacity:0.9;
+}
+.btn-github{
+  background-color:#000000;
+  opacity:0.9;
+}
+.btn-google {
+  background-color: #c32f10;
+  opacity: 0.9;
+}
+.btn-stackoverflow{
+  background-color: #D38B28;
+  opacity: 0.9;
+}
+
+/* resume stuff */
+
+.bs-callout {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #eee;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px 1px 1px 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+.bs-callout:last-child {
+    margin-bottom: 0px;
+}
+.bs-callout h4 {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+
+.bs-callout-danger h4{
+    color: #d9534f;
+}
+
+.resume .list-group-item:first-child, .resume .list-group-item:last-child{
+  border-radius:0;
+}
+
+/*makes an anchor inactive(not clickable)*/
+.inactive-link {
+   pointer-events: none;
+   cursor: default;
+}
+
+.resume-heading .social-btns{
+  margin-top:15px;
+}
+.resume-heading .social-btns i.fa{
+  margin-left:-5px;
+}
+
+
+
+@media (max-width: 992px) {
+  .resume-heading .social-btn-holder{
+    padding:5px;
+  }
+}
+
+
+/* skill meter in resume. copy pasted from http://bootsnipp.com/snippets/featured/progress-bar-meter */
+
+.progress-bar {
+    text-align: left;
+	white-space: nowrap;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor: pointer;
+}
+
+.progress-bar > .progress-type {
+	padding-left: 10px;
+}
+
+.progress-meter {
+	min-height: 15px;
+	border-bottom: 2px solid rgb(160, 160, 160);
+ 	margin-bottom: 15px;
+}
+
+.progress-meter > .meter {
+	position: relative;
+	float: left;
+	min-height: 15px;
+	border-width: 0px;
+	border-style: solid;
+	border-color: rgb(160, 160, 160);
+  border-left-width: 2px;
+}
+
+.progress-meter > .meter-left {
+	border-left-width: 2px;
+}
+
+.progress-meter > .meter-right {
+	float: right;
+	border-right-width: 2px;
+}
+
+.progress-meter > .meter-right:last-child {
+	border-left-width: 2px;
+}
+
+.progress-meter > .meter > .meter-text {
+	position: absolute;
+	display: inline-block;
+	bottom: -20px;
+	width: 100%;
+	font-weight: 700;
+	font-size: 0.85em;
+	color: rgb(160, 160, 160);
+	text-align: left;
+}
+
+.progress-meter > .meter.meter-right > .meter-text {
+	text-align: right;
+}
+
+
+<!--   END OF CUSTOM -->
+#colordiv {
+background-color: rgb(200, 208, 216);
+}
+
+.bgcontainer {    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom:100px;
+}
+
+.navbar-inverse {
+    background-color: #428BCA;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #428BCA;
+    border-bottom: 3px solid white;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #71AB6F;
+}
+
+.dropdown-menu {
+    background-color: #71AB6F;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: #428BCA;
+}
+
+.navbar-inverse {
+    background-image: none;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-image: none;
+}
+
+.navbar-inverse {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #FFFFFF;
+}
+
+.dropdown-menu > li > a {
+    color: #333333;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+    border-top-color: #999999;
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
+    border-top-color: #9CFF99;
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+    border-bottom-color: #999999;
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
+    border-bottom-color: #9CFF99;
+}
+
+
+*{
+border-radius: 0 !important;
+-moz-border-radius: 0 !important;
+margin: 0;
+padding: 0;
+font-family: 'Helvetica Neue', arial, sans-serif;
+}
+
+.header {    
+    background: #222;
+    z-index: 10;
+}
+
+.header .navbar-brand {
+    font-weight: 900;
+}
+
+.header .navbar {
+    margin: 0;
+    border: none;
+}
+
+.page-section {
+    width: 100%;
+    min-height: 800px;
+    padding: 50px 0;
+}
+
+.page-section h1 {
+    font-size: 4em;
+    margin: 50px 0;
+}
+
+.page-section h1 span {
+    font-weight: 200;
+}
+
+.page-section h2 {
+    font-size: 3em;
+    font-weight: 900;
+    color: #fff;
+    margin: 0 0 30px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.page-section p {
+    font-size: 1.2em;
+    font-weight: 200;
+    margin: 0 25% 20px 0;
+}
+
+.page-section p.lead {
+    font-size: 1.8em;
+}
+
+.navbar {
+margin-bottom: 0px;
+}
+
+.page-section p.caption {
+    color: #fff;       
+    text-shadow: 1px 1px 1px #000;
+}
+
+.page-section.intro {
+    min-height: 600px;
+}
+
+.btn {
+    font-weight: 200;
+}
+
+.btn-dark {
+    background: #444;
+    color: #fff;
+}
+
+    .btn-dark:hover {
+        background: #000;
+        color: #fff;
+    }
+
+.back-to-top {
+    display: inline-block;
+    clear: both;
+    background: #fff;
+    color: #333;
+    padding: 0 10px 5px;
+    margin: 20px 0 0;
+    text-shadow: none;
+}
+
+.back-to-top:hover {
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+hr {
+    border-color: #ddd;
+}
+        
+.signup {
+    margin-top: 140px;
+}
+
+.customheader {
+    color: #428BCA;    
+    margin-top: 20px;
+}
+
+.bigicon {
+    font-size: 47px;
+    color: #428BCA;
+}
+
+.hiddenStepInfo {
+    display: none;
+}
+
+.activeStepInfo {
+    display: block !important;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.step {
+    margin-top: 27px;
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+}
+
+.progress > .progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 800;
+    padding: 3px 30px 2px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress > .progress-completed {
+    position: absolute;
+    right: 0px;
+    font-weight: 800;
+    padding: 3px 10px 2px;
+}
+
+.step {
+    text-align: center;
+}
+
+.step .col-md-2 {
+    background-color: #fff;
+    border: 1px solid #C0C0C0;
+    border-right: none;
+}
+
+.step .col-md-2:last-child {
+    border: 1px solid #C0C0C0;
+}
+
+.step .col-md-2:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.step .col-md-2:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.step .col-md-2:hover {
+    color: #F58723;
+    cursor: pointer;
+}
+
+.step .activestep {
+    color: #F58723;
+    height: 100px;
+    margin-top: -7px;
+    padding-top: 7px;
+    border-left: 6px solid #2980B9!important;
+    border-right: 6px solid #2980B9 !important;
+    border-top: 3px solid #2980B9 !important;
+    border-bottom: 3px solid #2980B9 !important;
+    vertical-align: central;
+}
+
+.step .fa {
+    padding-top: 15px;
+    font-size: 40px;
+}
+
+#map-container {
+    height: 400px;
+}
+
+#location {
+    height: 700px;
+}
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #7f96ae;
+}
+
+
+<!-- Startup Template - END -->
