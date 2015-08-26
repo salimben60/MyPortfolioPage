@@ -43,7 +43,7 @@
   
 .progress {;}
 .divider{ width:100%; height:4px; background-color:black;}    
- h1,h3,h4,p  { font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;color: #646464; line-height:1.5; }
+ h1,h3,h4,p  { font-family: â€˜Metrophobicâ€™, Arial, serif; font-weight: 400;color: #646464; line-height:1.5; }
     
     .outlined .highlight {
   outline: 10px solid red;
@@ -79,6 +79,42 @@
   line-height: 30px;
 }
 <!-- END Fixed button to GOTO TOP -->
+
+
+
+
+<!-- START OF HIGHLIGHTS SECTION-->
+
+#highlights {            
+     background-color:blue;
+     width:100%;
+     margin-bottom: 70px;
+ }
+  
+ .feature{
+     padding: 20px 0;
+    text-align: center;
+ }
+ .feature > div > div{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.2s;
+ }
+ .feature > div:hover > div{
+    margin-top: -10px;
+    border: 1px solid rgb(128, 128, 128);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 5px;
+    background: rgba(232, 215, 215, 0.10);
+    transition: 0.3s;
+ }
+.btn{background-color:#2980B9;}
+.btn:active{background-color:#2980B9;}
+.btn:hover{font-size:17px; background-color:#2980B9;}
+.btn-success{background-color:#2980B9;border-color:#2980B9;}
+
+
+<!-- END OF HIGHLIGHTS  -->
 
 <!-- Another Custom check this later might be duplicate -->
  background-color:orange;
@@ -554,4 +590,4 @@ hr {
 }
 
 
-<!-- Startup Template - END -->
+<!-- END  -->
